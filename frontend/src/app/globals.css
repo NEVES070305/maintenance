@@ -31,3 +31,9 @@ body {
     text-wrap: balance;
   }
 }
+@layer components{
+  .data-table tr, .data-table td{
+    padding: 1rem;
+    text-align: left;
+  }
+}
